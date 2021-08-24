@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+}
+#name{
+    background: linear-gradient(cyan,lightgreen, limegreen,greenyellow,green,darkgreen);
+    font-size: 30px;
+    padding: 50px
+}
+#red{
+    background: radial-gradient(cyan,lightgreen, limegreen,greenyellow,green,darkgreen);
+    font-size: 41px;
+    opacity: 1
+}
+ul{
+    position: fixed;
+    top:0px;
+    margin-top: 0px;
+    width: 100%;
+cursor: pointer;
+    z-index:10;
+    
+    
+}
+#home{
+    padding-left: 11px;
+    padding-right: 11px;
+    font-size: 30px;
+    display: inline;
+}
+#home:hover{
+background-color:cornflowerblue;
+    font-size:45px;
+    text-decoration: underline;
+    
+}
+#name{
+    font-family: 'Lobster', cursive;
+}
+#namr h3{
+    display: inline;
+}
